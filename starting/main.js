@@ -14,8 +14,10 @@ class Field {
         return this._field;
     }
 
-    print(arr) {
-        
+    print() {
+        return this.field.forEach(element => {
+            console.log(element.join(' '))
+        });
     }
 }
 
@@ -25,4 +27,5 @@ const myField = new Field([
     ['░', '^', '░'],
   ]);
 
-  myField.print(this.field);
+  console.log(myField);
+  myField.print(this._field);
