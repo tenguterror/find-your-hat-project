@@ -13,4 +13,16 @@ class Field {
     get field() {
         return this._field;
     }
+
+    print(arr) {
+        
+    }
 }
+
+const myField = new Field([
+    ['*', '░', 'O'],
+    ['░', 'O', '░'],
+    ['░', '^', '░'],
+  ]);
+
+  myField.print(this.field);
