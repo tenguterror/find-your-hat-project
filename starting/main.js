@@ -16,7 +16,7 @@ class Field {
 
     print() {
         return this.field.forEach(element => {
-            console.log(element.join(' '))
+            console.log(element.join(''))
         });
     }
 }
