@@ -28,4 +28,4 @@ const myField = new Field([
   ]);
 
   console.log(myField);
-  myField.print(this._field);
+  myField.print(this.field);
